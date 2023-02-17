@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <title>Login | Flask</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="margin-top: 40px">
+            <div class="col-sm-6">
+                <form method="POST">
+                    <div class="form-group">
+                      <label for="hackathon">Hackathon Name </label>
+                      <input type="text" name="hname" class="form-control" id="hname">
+                    </div>
+                    <div class="form-group">
+                      <label for="college">Mode of Conduct</label>
+                      <input type="text" name="college" class="form-control" id="college">
+                    </div>
+                    <div class="form-group">
+                      <label for="loc">Address/Location</label>
+                      <input type="text" name="loc" class="form-control" id="loc">
+                    </div>
+                    <div class="form-group">
+                      <label for="desc">Hackathon Description</label>
+                      <textarea rows="4" name="desc" class="form-control"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="date">Date of Hackathon</label>
+                      <input type="date" name="date" class="form-control" id="date">
+                    </div>
+                    <div class="form-group">
+                      <label for="time">Time of Hackathon</label>
+                      <input type="time" name="time" class="form-control" id="time">
+                    </div>
+                    <div class="form-group">
+                      <label for="eval">Minimum Qualification Required</label>
+                      <input type="text" name="eval" class="form-control" id="eval">
+                    </div>
+                    <div class="form-group">
+                      <label for="yrs">Minimum Years of Experience</label>
+                      <input type="text" name="yrs" class="form-control" id="yrs">
+                    </div>
+                    <div class="form-group">
+                      <label for="skills">Minimum Required Skills</label>
+                      <input type="text" name="skills" class="form-control" id="skills">
+                    </div>
+                   
+                    <div class="form-group">
+                        <label for="logo">College Logo </label>
+                        <input type="file" name="logo" class="form-control" id="logo">
+                      </div>
+                    <div class="form-group">
+                        <label for="banner">Hackathon Banner </label>
+                        <input type="file" name="banner" class="form-control" id="banner">
+                      </div>
+
+                    <div class="form-group">
+                        <label for="size">Team Size</label>
+                        <input type="number" name="size" class="form-control" id="size">
+                      </div>
+                      <div class="form-group">
+                        <label for="no">No. of Teams to be shortlisted</label>
+                        <input type="number" name="no" class="form-control" id="no">
+                      </div>
+                    <button type="submit" class="btn form-control btn-default">Register Hackathon</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.container .row button{
+    background: linear-gradient(to bottom, #6C5CE7, #311fb8);
+    color: white;
+    font-weight: 600;
+}
+
+.container{
+    background-color: #c9c5ec;
+    min-width: fit-content;
+    padding: 2rem;
+}
