@@ -10,7 +10,7 @@
   <!-- custom css file link  -->
   <!-- <link rel="stylesheet" href="css/style.css"> -->
   <link
-      href="{{url_for('static', filename='style.css')}}"
+      href="../src/style.css"
       rel="stylesheet"
     />
 
@@ -31,7 +31,7 @@
 <nav class="navbar">
   <ul>
     <li><a href="#home">home</a></li>
-    <li><a href="">Hackathons</a></li>
+    <li><a href={{ url_for('list') }}>Hackathons</a></li>
     <li><a href={{ url_for('cllg') }}>Organize a hackathon</a></li>
     <li><a href={{ url_for('login') }}>Sign in</a></li>
   </ul>
@@ -81,7 +81,7 @@
   </div>
 
   <div class="image">
-    <img src="static/about-image.png" alt="">
+    <img src="src/about-image.png" alt="">
   </div>
 
 </div>
@@ -100,7 +100,7 @@
 <div class="row">
 
   <div class="image">
-    <img src="static/img1.png" alt="">
+    <img src="src/img1.png" alt="">
   </div>
   <div class="content">
     <h3>Easing your hackathon team selection process</h3>
@@ -117,7 +117,7 @@
     <a href="#"><button class="btn">read more</button></a>
   </div>
   <div class="image">
-    <img src="static/img2.png" alt="">
+    <img src="src/img2.png" alt="">
   </div>
 
 </div>
@@ -126,7 +126,7 @@
 
   
   <div class="image">
-    <img src="static/img3.png" alt="">
+    <img src="src/img3.png" alt="">
   </div>
   <div class="content">
     <h3>Your digital up-to-date resumé</h3>
@@ -143,7 +143,7 @@
     <p>Applying to hackathons on Devfolio is as simple as a click of a button. We save all the required info so that you don’t have to fill them over and over again.</p>
   </div>
   <div class="image">
-    <img src="static/img4.png" alt="">
+    <img src="src/img4.png" alt="">
   </div>
 
 </div>
@@ -164,7 +164,7 @@
 
 <div class="card">
   <div class="image">
-    <img src="static/pic1.png" alt="">
+    <img src="src/pic1.png" alt="">
   </div>
   <div class="info">
     <h3>someone's name</h3>
@@ -179,7 +179,7 @@
 
 <div class="card">
   <div class="image">
-    <img src="static/pic2.png" alt="">
+    <img src="src/pic2.png" alt="">
   </div>
   <div class="info">
     <h3>someone's name</h3>
@@ -194,7 +194,7 @@
 
 <div class="card">
   <div class="image">
-    <img src="static/pic3.png" alt="">
+    <img src="src/pic3.png" alt="">
   </div>
   <div class="info">
     <h3>someone's name</h3>
@@ -226,7 +226,7 @@
 <div class="row">
 
   <div class="image">
-    <img src="static/contact-image.svg" alt="">
+    <img src="src/contact-image.svg" alt="">
   </div>
 
   <div class="form-container">
@@ -260,7 +260,7 @@
 <div class="row">
 
 <div class="image">
-  <img src="static/about-image.png" alt="">
+  <img src="src/about-image.png" alt="">
 </div>
 
 <div class="accordion-container">
@@ -368,7 +368,7 @@
 <!-- custom js file link  -->
 
 <!-- <script src="js/main.js"></script> -->
-<script src="{{url_for('static', filename='main.js')}}"></script>
+<script src="../src/main.js"></script>
 
   
 </body>

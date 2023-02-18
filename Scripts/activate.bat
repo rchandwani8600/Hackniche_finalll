@@ -1,4 +1,4 @@
-@set "VIRTUAL_ENV=D:\Users\bhavna\Desktop\Landing"
+@set "VIRTUAL_ENV=C:\Users\RITIKA\Desktop\Hackniche_WhiteHats"
 
 @if defined _OLD_VIRTUAL_PROMPT (
     @set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
